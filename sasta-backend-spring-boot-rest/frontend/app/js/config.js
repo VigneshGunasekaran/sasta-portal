@@ -372,6 +372,14 @@
             },
               controller : 'NewsController as newsController'
         })
+          .state('ui.news-details', {
+            url: "/news-details",
+            templateUrl: "views/static/news-details.html",
+            data: {
+                pageTitle: 'news-details'
+            },
+              controller : 'NewsController as newsController'
+        })
         
 
         

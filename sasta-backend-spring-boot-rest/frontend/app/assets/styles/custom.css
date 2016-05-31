@@ -333,3 +333,109 @@ p {
 .ftr-clmn2 img {
 	max-width: 100%;
 }
+
+/*News CSS*/
+.page-title
+{
+	background-color:#efefef;
+	padding:20px 0;
+}
+.page-title h3
+{
+	margin-bottom:0;
+}
+.page-title ol li
+{
+	display:inline-block;
+	position:relative;
+}
+.page-title ol li a
+{
+	color: #555;
+    display: block;
+    padding: 0 5px 0 10px;
+}
+.page-title ol > li + li:before
+{
+	background:url(../figure/bread-arw.png) no-repeat scroll left center;
+	content:"";
+	width:6px;
+	height:9px;
+	float:left;
+	top:5px;
+	position:absolute;
+	
+}
+.page-title
+{
+	margin-bottom:30px;
+}
+.hnewsimg span
+{
+	position:absolute;
+	padding:5px 10px;
+	bottom:0;
+	float:left;
+	font-size:12px;
+}
+.post-date
+{
+	background-color:rgba(239,82,5,0.9);
+	left:0;
+	right:auto;
+	color:#fff;
+	
+}
+.post-auhor
+{
+	background-color:rgba(255,255,255,0.9);
+	right:0;
+	left:auto;
+	color:#444;
+}
+.post-date i
+{
+	background: url("../figure/clock-ic.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 3px;
+    width: 16px;
+}
+.post-auhor
+{
+	right:0;
+}
+.post-auhor i
+{
+	background:url(../figure/author-ic.png) no-repeat scroll 0 0;
+	width:10px;
+	height:14px;
+	 display: inline-block;
+	 margin-right: 6px;
+	 position:relative;
+	 top:3px;
+}
+.news-holder figcaption h6
+{
+	margin-bottom:5px;
+	font-size:14px;
+
+}
+.new-list-bx
+{
+	margin-bottom:40px;
+	min-height:400px;
+}
+.page-title ol li.active a
+{
+	color:#1f3488;
+}
+.news-details-wrapper .news-holder h2
+{
+	margin-bottom:10px;
+}
+/*News CSS*/
+
+.breadcrump .active{background:#efefef;}

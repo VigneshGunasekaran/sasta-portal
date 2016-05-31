@@ -9,6 +9,15 @@
 .login-sec {
 	float: right;
 }
+.page-title h3
+{
+	float:left;
+}
+.page-title ol
+{
+	float: right;
+    margin: 15px 0 0;
+}
 }
 /*768 End Here*/
 
@@ -49,6 +58,11 @@
 	float: left;
 	margin-left: 15px;
 }
+.page-title ol li:first-child a
+{
+	padding-left:0;
+}
+
 }
 /*767 End Here*/
 
@@ -73,6 +87,10 @@
 }
 .ftr-small-device {
 	padding-left: 33%;
+}
+.news-list-wrapper
+{
+	padding:0 50px !important;
 }
 }
 /*768 and 991 End Here*/
@@ -109,3 +127,9 @@
 }
 }
 /*1200*/
+@media (min-width:541px) and (max-width:767px) {
+	.news-list-wrapper
+{
+	padding:0 80px !important;
+}
+}

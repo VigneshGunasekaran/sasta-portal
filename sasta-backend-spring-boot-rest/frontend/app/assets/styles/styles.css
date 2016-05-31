@@ -243,7 +243,7 @@ cursor:pointer
 }
 @media (min-width:1200px) {
 .container {
-	width: 1170px
+	width: 1000px
 }
 }
 .container-fluid {
@@ -2856,17 +2856,3 @@ th.visible-print, td.visible-print {
 	display: none !important
 }
 }
- @media (min-width: 768px){
-    display: none!important;
-   
-  }
-  .abtul li{   margin-left: 17px; padding-bottom: 10px;     list-style: outside none square;}
-
-  #over_map {background: #fff;position: absolute;z-index: 0;width: 20%; padding: 15px; opacity: 0.59;filter: alpha(opacity=90);	color: #000;	float: left;top: 15px;	  right: 0;	   margin-right: 170px;}
- #over_map p{margin-bottom:10px;}
-.contactDeatils p{margin-bottom: 10px;}
-.contactDeatils h4{margin-bottom: 15px;}
-.s10{font-size:19px;}
-.mrg-btm{margin-bottom: 12px;}
-
-   .contactDeatils {margin-bottom: 20px;}
